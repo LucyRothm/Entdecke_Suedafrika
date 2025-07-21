@@ -1,0 +1,131 @@
+/* ============================
+   Grundlegendes Layout
+============================ */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5ec; /* sanftes Beige */
+    color: #2f2f2f;
+}
+
+/* ============================
+   Seitenkopf
+============================ */
+header {
+    background-color: #5b7944; /* warmes, erdiges Grün */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ============================
+   Navigation
+============================ */
+nav {
+    background-color: #4a6131; /* dunkleres, gedecktes Grün */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #6f8c54; /* etwas heller beim Hover */
+}
+
+/* ============================
+   Hauptinhalt
+============================ */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px 40px 20px; /* zusätzlicher Platz unten durch 40px padding */
+    background-color: #fffdf8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    color: white;
+}
+
+h2, h3 {
+    color: #5b7944;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+/* ============================
+   Bilder
+============================ */
+.startbild {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+
+/* ============================
+   Footer
+============================ */
+footer {
+    background-color: #eee6d9; /* dezentes Beige */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+/* ============================
+   Tabellen (z. B. Öffnungszeiten)
+============================ */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fffefc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0ead9;
+    color: #333;
+}
+
+/* ============================
+   Team-Mitglieder
+============================ */
+.team-mitglied {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
