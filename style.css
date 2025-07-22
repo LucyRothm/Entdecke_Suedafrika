@@ -1,31 +1,22 @@
-/* ============================
-   Grundlegendes Layout
-============================ */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f5ec; /* sanftes Beige */
+    background-color: #f9f5ec;
     color: #2f2f2f;
 }
 
-/* ============================
-   Seitenkopf
-============================ */
 header {
-    background-color: #5b7944; /* warmes, erdiges Grün */
+    background-color: #5b7944; 
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-/* ============================
-   Navigation
-============================ */
 nav {
-    background-color: #4a6131; /* dunkleres, gedecktes Grün */
+    background-color: #4a6131; 
 }
 
 nav ul {
@@ -49,16 +40,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #6f8c54; /* etwas heller beim Hover */
+    background-color: #6f8c54; 
 }
 
-/* ============================
-   Hauptinhalt
-============================ */
 main {
     max-width: 1000px;
     margin: 20px auto;
-    padding: 0 20px 40px 20px; /* zusätzlicher Platz unten durch 40px padding */
+    padding: 0 20px 40px 20px; 
     background-color: #fffdf8;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
@@ -76,9 +64,6 @@ section {
     margin-bottom: 30px;
 }
 
-/* ============================
-   Bilder
-============================ */
 .startbild {
     max-width: 100%;
     height: auto;
@@ -87,11 +72,8 @@ section {
     border: 1px solid #ccc;
 }
 
-/* ============================
-   Footer
-============================ */
 footer {
-    background-color: #eee6d9; /* dezentes Beige */
+    background-color: #eee6d9; 
     text-align: center;
     padding: 15px 0;
     font-size: 0.9em;
@@ -100,9 +82,6 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-/* ============================
-   Tabellen (z. B. Öffnungszeiten)
-============================ */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -121,9 +100,6 @@ th {
     color: #333;
 }
 
-/* ============================
-   Team-Mitglieder
-============================ */
 .team-mitglied {
     margin-bottom: 30px;
     padding-bottom: 15px;
